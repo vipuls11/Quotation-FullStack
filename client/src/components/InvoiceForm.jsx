@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import { Box, Button, Typography } from "@mui/material";
 
-const API_BASE_URL = import.meta.env.API_BASE_URI || "http://localhost:8000";
+const API_BASE_URL =  process.env.API_BASE_URI || "http://localhost:8000";
 
 const emptyItem = {
   description: "",

@@ -20,7 +20,7 @@ import {
 import InvoiceForm from "./InvoiceForm";
 import InvoicePdfView from "./InvoicePdfView";
 
-const API_BASE_URL = import.meta.env.API_BASE_URI || "http://localhost:8000";
+const API_BASE_URL =  process.env.VITE_API_BASE_URI || "http://localhost:8000";
 
 const getNextInvoiceNumber = (invoices = []) => {
   const numbers = invoices
