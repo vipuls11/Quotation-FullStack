@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #3498db;
+  --font-size: 16px;
+   box-sizing: border-box;
+}
+
+body {
+  color: var(--primary-color);
+  font-size: var(--font-size);
+}
