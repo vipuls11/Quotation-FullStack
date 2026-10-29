@@ -497,7 +497,7 @@ const makePdf = async (invoice) => {
   wrapper.style.display = "block";
   wrapper.style.width = `${pageWidth}px`;
   wrapper.style.height = `${pageHeight}px`;
-  wrapper.style.background = "#2d2d2d";
+//  wrapper.style.background = "#2d2d2d";
   wrapper.style.visibility = "visible";
   wrapper.style.overflow = "visible";
 
