@@ -47,6 +47,10 @@ app.use(cookieParser());
 // app.get("/api/health", (req, res) => {
 //   res.json({ status: "ok" });
 // });
+app.get('/', (req, res) => {
+    res.send('<h1>Welcome to Express.js!</h1>');
+});
+
 // Register router
 app.use("/api/invoices", userRoutes);
 // Register authentication, quotation and invoice routes here.
